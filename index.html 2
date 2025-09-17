@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identitas Pribadi</title>
+    <style>
+        body {
+            font-family: "Poppins", Arial, sans-serif;
+            background: linear-gradient(to right, #a1c4fd, #fbc2eb); /* biru muda ke pink pastel */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(6px);
+            border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+        .foto {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .foto img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #fbc2eb;
+        }
+        h2 {
+            text-align: center;
+            color: #444;
+            margin-bottom: 20px;
+        }
+        .info p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 10px;
+            background: #f8f9ff;
+            border-left: 6px solid #a1c4fd;
+        }
+        .info strong {
+            color: #e91e63; /* pink pastel */
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #333;
+            background: rgba(255, 255, 255, 0.6);
+            border-top: 2px solid rgba(255, 255, 255, 0.4);
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Identitas Pribadi</h1>
+    </header>
+
+    <div class="container">
+        <div class="foto">
+            <img src="IMG_20230921_215322_0138.jpg" alt="Foto Profil">
+        </div>
+        <h2>Miswanja Batu Padang</h2>
+        <div class="info">
+            <p><strong>NIM:</strong> H021231004</p>
+            <p><strong>Program Studi:</strong> Fisika</p>
+            <p><strong>Universitas:</strong> Universitas Hasanuddin</p>
+            <p><strong>Email:</strong> trisalpampang@gmail.com</p>
+            <p><strong>No. HP:</strong> 085299321866</p>
+            <p><strong>Alamat:</strong> Jl. Cypress View No.62</p>
+            <p><strong>Hobi:</strong> Hiking, Traveling</p>
+        </div>
+    </div>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
